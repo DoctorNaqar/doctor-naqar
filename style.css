@@ -1,0 +1,177 @@
+/* Custom font */
+.rr {
+  font-family: "RudawRegular";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rb {
+  font-family: "Rudaw";
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Doctor Naqar colors */
+
+.dng {
+  color: #353535;
+}
+
+.dnlg {
+  color: #9c98b9;
+}
+
+.dnb {
+  color: #0097ba;
+}
+
+.dny {
+  color: #ffd600;
+}
+
+.dnw {
+  color: #fafbfc;
+}
+
+/* Body styling */
+body {
+  background-color: #fafbfc;
+}
+
+/* Navbar syling */
+#soon {
+  background-color: rgb(156, 152, 185, 0.2);
+  color: rgb(156, 152, 185, 0.9);
+}
+
+#soon:hover {
+  background-color: #ffd600;
+  color: #353535;
+}
+
+/* Hero section */
+#hero {
+  background-image: url("/doctor-naqar/Assets/Web.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.btn-naqar {
+  background-color: #0097ba;
+  color: #fafbfc;
+}
+
+.btn-naqar:hover {
+  background-color: #ffd600;
+  color: #353535;
+  stroke: none;
+}
+
+/* Section 2 - below hero */
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgba(156, 152, 185, 0.2);
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+#dots {
+  background-image: url("/doctor-naqar/Assets/dots.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#secTwo {
+  background-color: white;
+}
+
+/* Section 3 */
+#blueTitle {
+  font-size: 1.2rem;
+}
+
+#dots-lg {
+  background-image: url("/doctor-naqar/Assets/dots.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-indicators {
+  margin-bottom: -50px;
+}
+
+.carousel-inner {
+  margin-bottom: 50px;
+}
+
+/* Section 5 */
+.prpl {
+  background-color: #7c68ed;
+}
+
+.yl {
+  border-top: 3px solid hsl(50, 100%, 50%);
+  opacity: 1;
+  margin-top: 2rem;
+  width: 8rem;
+}
+
+/* Section 5 */
+
+.bl {
+  border-top: 3px solid hsl(191, 100%, 36%);
+  opacity: 1;
+  margin-top: 2rem;
+  width: 8rem;
+}
+
+/* Pricing */
+.bg-naqar-main {
+  background-color: #0097ba;
+}
+
+.bg-naqar-alt {
+  background-color: #ffd600;
+}
+
+.btn-naqar-outline {
+  background: none;
+  border: 1px solid #9c98b9;
+}
+
+.btn-naqar-outline:hover {
+  background-color: #ffd600;
+  color: #353535;
+  stroke: none;
+}
+
+.btn-naqar-alt {
+  background-color: #ffd600;
+  color: #353535;
+}
+
+.btn-naqar-alt:hover {
+  background-color: #0097ba;
+  color: #fafbfc;
+  stroke: none;
+}
