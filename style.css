@@ -11,6 +11,32 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "RudawRegular";
+  src: url("/Fonts/RudawRegular.eot");
+  src: url("/Fonts/RudawRegular.eot?#iefix") format("embedded-opentype"),
+    url("/Fonts/RudawRegular.woff2") format("woff2"),
+    url("/Fonts/RudawRegular.woff") format("woff"),
+    url("/Fonts/RudawRegular.ttf") format("truetype"),
+    url("/Fonts/RudawRegular.svg#RudawRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rudaw";
+  src: url("/Fonts/Rudaw-Bold.eot");
+  src: url("/Fonts/Rudaw-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/Fonts/Rudaw-Bold.woff2") format("woff2"),
+    url("/Fonts/Rudaw-Bold.woff") format("woff"),
+    url("/Fonts/Rudaw-Bold.ttf") format("truetype"),
+    url("/Fonts/Rudaw-Bold.svg#Rudaw-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Doctor Naqar colors */
 
 .dng {
