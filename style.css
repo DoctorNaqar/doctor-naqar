@@ -3,12 +3,15 @@
   font-family: "RudawRegular";
   font-weight: normal;
   font-style: normal;
+  src: url("./Fonts/rudawregular2.ttf") format("truetype");
+  display: swap;
 }
 
 .rb {
   font-family: "Rudaw";
   font-weight: bold;
   font-style: normal;
+  src: url("./fonts/rudawbold.ttf") format("ttf");
 }
 
 @font-face {
