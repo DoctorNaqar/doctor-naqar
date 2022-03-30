@@ -3,7 +3,7 @@
   font-family: "RudawRegular";
   font-weight: normal;
   font-style: normal;
-  src: url("./fonts/rudawregular2.ttf") format('ttf');
+  src: url('fonts/rudawregular2.ttf') format('truetype');
   display: swap;
 }
 /* 
