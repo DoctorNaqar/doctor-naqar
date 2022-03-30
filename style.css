@@ -1,18 +1,20 @@
 /* Custom font */
-.rr {
+/* .rr { */
+ @font-face {
   font-family: "RudawRegular";
   font-weight: normal;
   font-style: normal;
   src: url("./fonts/rudawregular2.ttf") format('ttf');
+  display: swap;
 }
-
+/* 
 .rb {
   font-family: "Rudaw";
   font-weight: bold;
   font-style: normal;
     src: url("./fonts/rudawbold.ttf") format('ttf');
 }
-
+ */
 /* Doctor Naqar colors */
 
 .dng {
